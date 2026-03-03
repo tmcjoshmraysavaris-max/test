@@ -1,0 +1,12 @@
+# Core image-processing and numerical libraries
+numpy>=1.23.0
+opencv-python-headless>=4.7.0
+
+# Raspberry Pi camera support
+# picamera2 is the recommended library for Raspberry Pi OS Bookworm (64-bit).
+# Uncomment the line that matches your OS / camera module:
+# picamera2>=0.3.12          # Raspberry Pi OS Bookworm (recommended)
+# picamera>=1.13             # Raspberry Pi OS Bullseye / Buster (legacy)
+
+# Optional: machine-learning inference (TFLite-based plant disease model)
+# tflite-runtime>=2.13.0
